@@ -1,0 +1,156 @@
+/* CSS untuk footer */
+.footer {
+  display: flex;
+  background-color: #6c757d; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 16px 0; /* Padding atas dan bawah */
+}
+
+/* CSS untuk bagian kiri footer */
+.footer-left {
+  flex: 1; /* Menggunakan fleksibilitas untuk mengisi ruang */
+  border-right: 2px solid white; /* Garis sebelah kanan */
+  padding-right: 20px; /* Ruang kosong di sebelah kanan */
+}
+
+/* CSS untuk bagian kanan footer */
+.footer-right {
+  flex: 1; /* Menggunakan fleksibilitas untuk mengisi ruang */
+  padding-left: 20px; /* Ruang kosong di sebelah kiri */
+}
+
+/* CSS untuk judul nama */
+.footer h3 {
+  font-size: 24px; /* Ukuran font judul */
+  font-weight: bold; /* Ketebalan font judul */
+  margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+/* CSS untuk subjudul */
+.footer h4 {
+  font-size: 18px; /* Ukuran font subjudul */
+  font-weight: normal; /* Ketebalan font subjudul */
+  margin-bottom: 5px; /* Jarak bawah subjudul */
+}
+
+/* CSS untuk tautan */
+.footer a {
+  color: white; /* Warna tautan */
+  text-decoration: none; /* Hapus dekorasi tautan */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Tambahkan garis bawah saat dihover */
+}
+
+/* CSS untuk daftar tautan */
+.footer ul {
+  list-style: none; /* Hilangkan gaya daftar */
+  padding: 0; /* Hilangkan padding */
+  margin: 0; /* Hilangkan margin */
+}
+
+.footer ul li {
+  margin-bottom: 8px; /* Jarak antara item daftar */
+}
+
+/* CSS untuk hak cipta dan privasi */
+.footer-copyright {
+  margin-top: 10px; /* Jarak atas hak cipta dan privasi */
+  font-size: 14px; /* Ukuran font hak cipta dan privasi */
+}
+
+/* CSS untuk teks informasi alamat */
+.footer-address {
+  font-size: 14px; /* Ukuran font alamat */
+}
+
+/* CSS untuk hak cipta dan privasi pada layar kecil */
+@media (max-width: 768px) {
+  .footer-copyright {
+    text-align: center; /* Pusatkan teks pada layar kecil */
+  }
+}
+
+
+.row {
+  
+  padding: 20px; /* Menambahkan jarak antara gambar */
+}
+/* Ganti lebar gambar agar sesuai dengan ukuran kolom */
+.col-md-3 img {
+  width: 50%;
+  height: auto;
+}
+.col-md-3 {
+  padding: 0 15px; /* Menambahkan jarak horizontal antara kolom */
+}
+
+.col-md-3 {
+  padding: 0 15px; /* Menambahkan padding di setiap sisi kolom */
+}
+
+.col-md-3 img {
+  width: 50%; /* Mengisi lebar gambar ke dalam kolom */
+  display: block; /* Membuat gambar menjadi elemen blok agar margin dan padding bisa diterapkan */
+  border: 1px solid #000000; /* Menambahkan garis tepi pada gambar */
+  margin-bottom: 15px; /* Menambahkan margin bawah antara setiap gambar */
+}
+
+/* Untuk menghindari margin tambahan di bagian bawah */
+.row [class^="col-"]:last-child {
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #f8f9fa; /* Warna latar belakang untuk halaman */
+}
+
+/* Styling untuk bagian navigasi */
+.navbar {
+  background-color: #343a40; /* Warna latar belakang untuk navbar */
+}
+
+/* Styling untuk bagian hero section */
+/* Styling untuk bagian utama */
+/* Styling untuk bagian utama */
+.main-section {
+    background-color: #F8F9FA; /* Warna latar belakang untuk main section */
+    color: #333; /* Warna teks */
+}
+
+/* Styling untuk bagian hero section */
+.hero-section {
+    background-color: #343A40; /* Warna latar belakang untuk hero section */
+    color: #fff; /* Warna teks */
+}
+
+/* Styling untuk bagian image section */
+.image-section {
+    background-color: #E9ECEF; /* Warna latar belakang untuk image section */
+    color: #333; /* Warna teks */
+}
+
+/* Styling untuk bagian other section */
+.other-section {
+    background-color: #6C757D; /* Warna latar belakang untuk other section */
+    color: #fff; /* Warna teks */
+}
+
+/* Styling untuk bagian footer */
+.footer {
+    background-color: #343A40; /* Warna latar belakang untuk footer */
+    color: #fff; /* Warna teks */
+}
+.bullet {
+  font-size: 24px; /* Ukuran simbol */
+  color: #007bff; /* Warna simbol */
+  margin-right: 10px; /* Jarak antara simbol dan teks */
+}
+
+/* Atur gaya teks */
+.text {
+  font-size: 18px; /* Ukuran teks */
+  line-height: 1.5; /* Tinggi baris */
+  color: #333; /* Warna teks */
+}
